@@ -20,6 +20,19 @@ img {
         padding-bottom: 10px;
         margin-bottom: 15px;
         border-bottom: 1px solid #eee;
+        h1 {
+            margin-bottom: 0;
+        }
+        p {
+            margin-top: 0;
+            color: #aaa;
+            a {
+                color: #777;
+                &:hover {
+                    color: #555;
+                }
+            }
+        }
     }
 
     .button {
