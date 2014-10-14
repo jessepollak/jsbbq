@@ -1,0 +1,43 @@
+@import "bourbon/dist/bourbon";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
+html, body {
+    font-family: "Open Sans", sans-serif;
+    * {
+       font-family: inherit;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+
+    .header {
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .button {
+        $color: #00BA6E;
+        display: inline-block;
+        background: $color;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 10px;
+        &:hover {
+            background: darken($color, 5%);
+        }
+    }
+}
+
+h3 {
+    font-weight: 500;
+}
