@@ -36,5 +36,10 @@ img {
     .container .button:hover {
       background: #00a15e; }
 
+.speaker-description h3 {
+  font-weight: bold; }
+.speaker-description p {
+  text-align: left; }
+
 h3 {
   font-weight: 500; }
